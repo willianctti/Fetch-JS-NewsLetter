@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* background: linear-gradient(to right, #0BE0C0, #0BBCE0); */
+    background-color: #7cffeb;
+}
+
+.input-container {
+    width: 400px;
+    height: 250px;
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    background-color: #69e3fb;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+
+    margin: 10px;
+
+}
+
+.inputs {
+    display: block;
+    text-align: center;
+
+}
+
+.inputs > #name {
+    width: 250px;
+    height: 30px;
+
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    border: none;
+
+}
+
+.inputs > #lastname {
+    width: 250px;
+    height: 30px;
+
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    border: none;
+
+
+
+}
+
+.inputs > #email {
+    width: 250px;
+    height: 30px;
+
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    border: none;
+
+}
+
+.input-container > button {
+    background: linear-gradient(to right, #04cff8, #9ef9ad);
+
+    width: 200px;
+    height: 30px;
+
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.618);
+    
+    border: none;
+
+    color: white;
+    text-shadow: 1px 1px 0px black;
+} 
+
+
+
